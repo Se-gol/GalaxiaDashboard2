@@ -1,13 +1,105 @@
 body, html {
     padding: 0;
     margin: 0;
+    overflow: hidden;
 }
 
-.bruh {
+.dashboard_background {
     position: absolute;
     left: 0;
     top: 0;
-    background-image: url(img.png);
+    background-image: url(dashboard_background.png);
     width: 1920px;
     height: 1080px;
+    z-index: -1;
+}
+
+#timer_text {
+    font-family: "Digital Numbers", sans-serif;
+    font-weight: 500;
+    font-size: 33px;
+    color: black;
+    position: absolute;
+    left: 894px;
+    top: 10px;
+}
+
+.container {
+    position: absolute;
+    width: 358px;
+    height: 30px;
+    left: 1536px;
+    top: 18px;
+    text-align: center;
+}
+
+#active_command_text {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: white;
+}
+
+.confirmations_text {
+    background-image: url(confirmations_text.png);
+    width: 693px;
+    height: 138px;
+    position: absolute;
+    left: 1090px;
+    top: 75px;
+}
+
+#conveyor {
+    background-image: url(conveyor_image.png);
+    width: 757px;
+    height: 289px;
+    position: absolute;
+    left: 1080px;
+    top: 768px;
+}
+
+#driver_camera_container {
+    position: absolute;
+    top: 66px;
+    left: 3px;
+}
+
+#vision_camera_container {
+    position: absolute;
+    top: 323px;
+    left: 1071px;
+}
+
+#visible_state {
+    background-image: url(red_gradient.png);
+    width: 247px;
+    height: 233px;
+    position: absolute;
+    left: 1068px;
+    top: 93px;
+}
+
+#aim_state {
+    background-image: url(red_gradient.png);
+    width: 247px;
+    height: 233px;
+    position: absolute;
+    left: 1312px;
+    top: 93px;
+}
+
+#speed_state {
+    background-image: url(red_gradient.png);
+    width: 247px;
+    height: 233px;
+    position: absolute;
+    left: 1556px;
+    top: 93px;
+}
+
+#robot {
+    background-image: url(robot_image.png);
+    width: 44px;
+    height: 44px;
+    position: absolute;
 }

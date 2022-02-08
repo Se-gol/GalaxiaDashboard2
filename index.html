@@ -4,8 +4,27 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <link rel="stylesheet" href="style.css">
+    <script src="node_modules/d3/dist/d3.min.js"></script>
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="/networktables/utils.js"></script>
+    <script src="/networktables/camera.js"></script>
+    <script src="/networktables/networktables.js"></script>
+    <script defer src="script.js"></script>
 </head>
 <body>
-<div class="bruh"></div>
+<div class="dashboard_background"></div>
+<div id="timer_text">02:30</div>
+<div class="container">
+    <div id="active_command_text">PickupBalls</div>
+</div>
+<div id="conveyor"></div>
+<div id="driver_camera_container"></div>
+<div id="vision_camera_container"></div>
+<div id="visible_state"></div>
+<div id="aim_state"></div>
+<div id="speed_state"></div>
+<div class="confirmations_text"></div>
+<div id="robot"></div>
+<div></div>
 </body>
 </html>
